@@ -11,6 +11,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
+          {/* Below is Angular Component */}
           <app-hello-world greetings=", from React Application"></app-hello-world>
         </p>
       </div>
